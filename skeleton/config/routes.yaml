@@ -2,6 +2,10 @@ index:
     path: /
     defaults: { _controller: 'App\Controller\DefaultController::index' }
 
+platlist.create:
+    path: /api/playlist
+    defaults: { _controller: 'App\Controller\Playlist::create' }
+    methods: ['POST']
 # first, run composer req annotations
 #controllers:
 #    resource: ../src/Controller/

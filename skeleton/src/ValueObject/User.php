@@ -1,15 +1,31 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: myrkox
- * Date: 22.10.17
- * Time: 15:32
- */
 
 namespace App\ValueObject;
 
-
 class User
 {
+    /**
+     * @var int
+     */
+    private $id;
+    /**
+     * @var string
+     */
+    private $name;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
 }
