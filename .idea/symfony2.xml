@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Symfony2PluginSettings">
+    <option name="pathToUrlGenerator" value="skeleton/var/cache/dev/srcDevDebugProjectContainerUrlGenerator.php" />
+    <option name="pathToTranslation" value="skeleton/var/cache/dev" />
+    <option name="directoryToWeb" value="skeleton/public" />
+    <option name="directoryToApp" value="skeleton/config" />
+    <option name="pluginEnabled" value="true" />
+  </component>
+</project>
